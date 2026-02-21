@@ -1,0 +1,22 @@
+# .NET Ignore
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+# Angular Ignore
+node_modules/
+dist/
+.angular/
+.npm/
+package-lock.json
+
+# Environment Secrets
+appsettings.json
+appsettings.Development.json
+.env
+*.key
+proxy.conf.json
