@@ -1,0 +1,5 @@
+<main>
+  <app-search-bar (search)="handleSearch($event)"></app-search-bar>
+  <app-map [results]="searchResults"></app-map>
+  <router-outlet></router-outlet>
+</main>
